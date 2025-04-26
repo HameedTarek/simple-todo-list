@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple To-Do List</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <section class="main">
+    <h1>Simple <span class="todo">To-Do</span> List</h1>
+
+    <div class="inputDi">
+      <input type="text" id="todoInput" placeholder="Enter a new task..." />
+      <button id="addBtn">Add Item</button>
+    </div>
+
+    <div class="inList">
+      <h2>List<span>:</span></h2>
+      <ul id="todoList"></ul>
+    </div>
+
+    <div class="completedList">
+      <h2>Completed List<span>:</span></h2>
+      <ul id="completedList"></ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Hamed Tarek El-Sayed. All rights reserved. <br> <a href="https://bytix.io" target="_blank"><span>Bytix</span></a> Task</p>
+  </footer>
+  
+
+</body>
+</html>
